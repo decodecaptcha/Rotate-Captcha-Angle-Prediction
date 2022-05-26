@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 文件: restoration_auto.py
-# 自动预测角度并恢复图片
+# 4. 自动预测角度并恢复图片
 
 import os
 import time

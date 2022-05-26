@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 文件: restoration.py
-# 预测角度并恢复图片
+# 3. 预测角度并恢复图片
 
 import os
 import time
