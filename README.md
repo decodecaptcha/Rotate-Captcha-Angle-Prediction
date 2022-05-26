@@ -20,6 +20,7 @@ pip install -r requirements.txt
 * 原理
 
 文件: image_hash.py
+
 1. 特征库生成
 1.1 准备矫正后的旋转验证码图片 (100%矫正最好)
 1.2 使用 image_hash.py 生成特征库
@@ -27,6 +28,7 @@ pip install -r requirements.txt
 
 
 文件: predict_angle.py
+
 2. 预测角度实现过程:
 2.1 获取一张倾斜的验证码
 2.2 把这张倾斜的验证码 旋转360度, 每x度生成一张图片, 当x=2时, 一共生成180张图片
@@ -35,10 +37,14 @@ pip install -r requirements.txt
 2.6 得到最大相似度的角度 (0.96xx, 角度)
 
 文件: restoration.py
+
 3. 预测角度并恢复图片
 
+
 文件: restoration_auto.py
+
 4. 自动预测角度并恢复图片
+
 
 生产环境实测 预测角度准确率在 70-90%
 
