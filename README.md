@@ -1,6 +1,6 @@
-# 旋转验证码角度预测
-
-* 简介
+旋转验证码角度预测
+=======
+### 简介
 
 1. 本项目可对旋转验证码角度预测, 可绕过常见的旋转类型验证码, 如百度旋转验证码
 
@@ -8,16 +8,16 @@
 
 3. 图像特征库 .pickle文件 采用 图像感知哈希算法 构建
 
-* 依赖
+### 依赖
 
     安装依赖: 
 ```bash
 pip install -r requirements.txt
 ```
 
-支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
+* 支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
 
-* 原理
+### 原理
 
     文件: image_hash.py
 
@@ -40,17 +40,14 @@ pip install -r requirements.txt
 
 3. 预测角度并恢复图片
 
-
     文件: restoration_auto.py
 
 4. 自动预测角度并恢复图片
 
-
     生产环境实测 预测角度准确率在 70-90%
 
 
-
-* 如何使用?
+### 如何使用
 ```bash
 git clone git@github.com:aiden2048/Rotate-Captcha-Angle-Prediction.git
 ```
@@ -59,19 +56,14 @@ git clone git@github.com:aiden2048/Rotate-Captcha-Angle-Prediction.git
 cd Rotate-Captcha-Angle-Prediction
 ```
 
-<<<<<<< HEAD
+
 ```bash
 pip install -r requirements.txt
 ```
-=======
+
 运行 angle/restoration.py
->>>>>>> c2cd6ba65b03aee0ae9b422a64fe38c9402e2ec7
 
 
-* 报错和解决
+### 报错和解决
 
-    请在 Issues 提交, 非常欢迎
-
-* 缺点
-
-    特征库越大， 计算成本越大
+    欢迎在 Issues 中提交 bug (或新功能)描述，我会尽力改进
