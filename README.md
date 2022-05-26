@@ -15,7 +15,7 @@
 pip install -r requirements.txt
 ```
 
-    支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
+支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
 
 * 原理
 
