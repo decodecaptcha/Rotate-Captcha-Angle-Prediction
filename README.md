@@ -10,16 +10,16 @@
 
 * 依赖
 
-安装依赖: 
+    安装依赖: 
 ```bash
 pip install -r requirements.txt
 ```
 
-支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
+    支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
 
 * 原理
 
-文件: image_hash.py
+    文件: image_hash.py
 
 1. 特征库生成
 1.1 准备矫正后的旋转验证码图片 (100%矫正最好)
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 1.3 从特征库 .pickle 文件读取全部 hash
 
 
-文件: predict_angle.py
+    文件: predict_angle.py
 
 2. 预测角度实现过程:
 2.1 获取一张倾斜的验证码
@@ -36,17 +36,17 @@ pip install -r requirements.txt
     最后按相似度排序 [(0.96xx, 角度), (0.95xx, 角度)]  , 取 top 1 (0.96xx, 角度)
 2.6 得到最大相似度的角度 (0.96xx, 角度)
 
-文件: restoration.py
+    文件: restoration.py
 
 3. 预测角度并恢复图片
 
 
-文件: restoration_auto.py
+    文件: restoration_auto.py
 
 4. 自动预测角度并恢复图片
 
 
-生产环境实测 预测角度准确率在 70-90%
+    生产环境实测 预测角度准确率在 70-90%
 
 
 
@@ -56,11 +56,11 @@ git clone git@github.com:aiden2048/Rotate-Captcha-Angle-Prediction.git
 ```
 
 ```bash
-pip install -r requirements.txt
+cd Rotate-Captcha-Angle-Prediction
 ```
 
 ```bash
-cd Rotate-Captcha-Angle-Prediction
+pip install -r requirements.txt
 ```
 
 ```bash
@@ -69,8 +69,8 @@ python3 angle/restoration.py
 
 * 报错和解决
 
-请在 Issues 提交, 非常欢迎
+    请在 Issues 提交, 非常欢迎
 
 * 缺点
 
-特征库越大， 计算成本越大
+    特征库越大， 计算成本越大
