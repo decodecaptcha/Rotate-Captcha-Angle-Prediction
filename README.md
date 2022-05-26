@@ -59,13 +59,14 @@ git clone git@github.com:aiden2048/Rotate-Captcha-Angle-Prediction.git
 cd Rotate-Captcha-Angle-Prediction
 ```
 
+<<<<<<< HEAD
 ```bash
 pip install -r requirements.txt
 ```
+=======
+运行 angle/restoration.py
+>>>>>>> c2cd6ba65b03aee0ae9b422a64fe38c9402e2ec7
 
-```bash
-python3 angle/restoration.py
-```
 
 * 报错和解决
 
