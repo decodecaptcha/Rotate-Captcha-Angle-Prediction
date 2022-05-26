@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author : 艾登Aiden
-# @Email : aidenlen@163.com
-# @Date : 2022-02-09
 
 # 文件: predict_angle.py
 # 2.预测角度实现过程:
@@ -17,6 +14,7 @@ import time
 import cv2
 import numpy as np
 from image_hash import ImageHash
+
 
 class PredictAngle(ImageHash):
 

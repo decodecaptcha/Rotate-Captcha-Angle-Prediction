@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 原理
-# 文件:  image_hash.py
+# 文件: image_hash.py
 # 1.特征库生成
 # 1.1 准备矫正后的旋转验证码图片 (100%矫正最好), 正确角度一般网站有给, 实在不行需要手动矫正
 # 1.2 使用 image_hash.py 生成特征库
@@ -96,7 +96,6 @@ class ImageHash(object):
         return hash_str
 
     def write_hashlib(self, file_dir, save_path):
-
         """批量生成特征库"""
         image_paths = self.get_images_all(file_dir)
         hashs = []
