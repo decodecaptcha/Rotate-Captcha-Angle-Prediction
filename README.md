@@ -10,10 +10,12 @@
 
 * 依赖
 
-Python 3.6+
-requirements.txt
+安装依赖: 
+```bash
+pip install -r requirements.txt
+```
 
-支持版本: ![](https://img.shields.io/badge/Python-3.x-blue.svg)
+支持版本: ![](https://img.shields.io/badge/Python-3.6+-blue.svg)
 
 * 原理
 
@@ -42,7 +44,7 @@ requirements.txt
 
 
 * 如何使用?
-
+```bash
 git clone git@github.com:aiden2048/Rotate-Captcha-Angle-Prediction.git
 
 pip install -r requirements.txt
@@ -50,10 +52,11 @@ pip install -r requirements.txt
 cd Rotate-Captcha-Angle-Prediction
 
 python3 run.py
+```
 
 * 报错和解决
 
-请在 Issues
+请在 Issues 提交, 非常欢迎
 
 * 缺点
 
