@@ -14,13 +14,9 @@ class Restoration(PredictAngle, ImageHash):
 
     """
     旋转图像恢复
-    path: 特征库路径, 可选
     """
-
     def __init__(self, path=None):
-        self.hashlib = []
-        if path is not None:
-            self.hashlib = self.load_hashlib(path)
+        pass
 
     def restoration(self, angle, input_img, output_img=None, show_img: bool = False):
         """图像恢复
