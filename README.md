@@ -27,6 +27,7 @@ pip install -r requirements.txt
 1. 特征库生成
 
 1.1 准备矫正后的旋转验证码图片 (100%矫正最好)
+1.1.1 这里你需要知道图片的正确角度, 部分网站会返回响应正确角度, 若没有只能自己手动找角度, 使用工具 restoration.py  进行批量矫正或手动矫正
 
 1.2 使用 image_hash.py 生成特征库
 
@@ -45,8 +46,6 @@ pip install -r requirements.txt
     最后按相似度排序 [(0.96xx, 角度), (0.95xx, 角度)]  , 取 top 1 (0.96xx, 角度)
 
 2.6 得到最大相似度的角度 (0.96xx, 角度)
-
-    文件: restoration.py
 
 3. 预测角度并恢复图片
 
