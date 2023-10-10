@@ -73,8 +73,9 @@ cd Rotate-Captcha-Angle-Prediction
 pip install -r requirements.txt
 ```
 
+```bash
 python angle/predict_angle.py
-
+```
 
 ### 报错和解决
 
